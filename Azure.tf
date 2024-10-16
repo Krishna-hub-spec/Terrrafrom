@@ -48,8 +48,8 @@ KnQY0nDTSMLMJuw7d9bFE24iesUFuSi3J9WZEgZgvymtaro7v9LjKqhg1L4t7/
 iW0svfhgcra+SAs9HrjZLxvN/ePhZz2wMKhq0mJc+VFa0/
 G7NCj3+AbuEbquEHZHMEbzSkEmF1noeLAHo+gztjA+TkkC5tmZACVDz5Y7K5G4p8kVkjs9LiPehSREg0D8u
 NASjIKg2M/fEZNhP+ZfaVJ4OJbjfyGcmU1ATYcXgix7ePR0/uk3IRV/
-e6JGiaIgoAPtmTlVNAQ1dSb8CiD+8eodbGBk366/+Fj  # Replace with your actual SSH public key
-EOT  # Replace with your actual SSH public key
+e6JGiaIgoAPtmTlVNAQ1dSb8CiD+8eodbGBk366/+Fj  
+EOT
   }
 
   os_disk {
