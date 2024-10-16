@@ -42,12 +42,14 @@ resource "azurerm_linux_virtual_machine" "vm" {
   # Add your SSH public key here directly (you can get it from ~/.ssh/id_rsa.pub)
   admin_ssh_key {
     username   = "azureuser"
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrKAxF8GynvOHmGBK5vsH7SABAbzOLKOY6P1DWqPOTBodfmpSrCh8
+     public_key = <<EOT
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrKAxF8GynvOHmGBK5vsH7SABAbzOLKOY6P1DWqPOTBodfmpSrCh8
 KnQY0nDTSMLMJuw7d9bFE24iesUFuSi3J9WZEgZgvymtaro7v9LjKqhg1L4t7/
 iW0svfhgcra+SAs9HrjZLxvN/ePhZz2wMKhq0mJc+VFa0/
 G7NCj3+AbuEbquEHZHMEbzSkEmF1noeLAHo+gztjA+TkkC5tmZACVDz5Y7K5G4p8kVkjs9LiPehSREg0D8u
 NASjIKg2M/fEZNhP+ZfaVJ4OJbjfyGcmU1ATYcXgix7ePR0/uk3IRV/
-e6JGiaIgoAPtmTlVNAQ1dSb8CiD+8eodbGBk366/+Fj"  # Replace with your actual SSH public key
+e6JGiaIgoAPtmTlVNAQ1dSb8CiD+8eodbGBk366/+Fj  # Replace with your actual SSH public key
+EOT  # Replace with your actual SSH public key
   }
 
   os_disk {
