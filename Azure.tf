@@ -5,7 +5,7 @@
   subscription_id = "36629079-fbde-4dce-b2b9-e42435dfa1d3"  # Replace with your Azure Subscription ID
   client_id       = "1d7e8a86-9635-4994-a146-2063686bc265"        # Replace with your Service Principal Client ID
   client_secret   = "JRW8Q~m2jSEgTK7Kzcdg4sXU3lXYg71clGG8lb7e"    # Replace with your Service Principal Client Secret
-  tenant_id       = "00c974d1-3c4d-42a6-8a9b-779c2e0c5098"        # Replace with your Azure Tenant ID
+  tenant_id       = "0eadb77e-42dc-47f8-bbe3-ec2395e0712c"        # Replace with your Azure Tenant ID
 }
 
 # Define the existing resource group
