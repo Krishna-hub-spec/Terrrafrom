@@ -21,7 +21,7 @@ data "azurerm_storage_account" "existing_storage_account" {
 
 # Create the blob storage container within the existing storage account
 resource "azurerm_storage_container" "example_container" {
-  name                  = "harness-container"  # Name of your blob container
+  name                  = "harness-container01"  # Name of your blob container
   storage_account_name   = data.azurerm_storage_account.existing_storage_account.name
   container_access_type  = "blob"  # Can be "private", "blob", or "container"
 }
